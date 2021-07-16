@@ -20,5 +20,5 @@ from .views import MainView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('messages_api.urls')),
+    path('chat/', include('messages_api.urls')),
 ]
